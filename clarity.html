@@ -85,89 +85,66 @@
         </div>
       </div>
     </nav>
+
     <div class="container-fluid pt-100 mb-90">
       <div class="row">
-        <div class="intro-brand">
-          <h2>What is Fangstudios</h2>
-          <p class="brand-origin">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
-            sequi. Cumque molestias sunt at animi similique voluptatibus totam
-            nemo, quas commodi quisquam iusto distinctio repellat quam ducimus
-            necessitatibus magni dolore!
-          </p>
-          <p class="brand-target">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
-            inventore quis, illo corrupti aliquam iste quisquam quasi? Libero,
-            rerum deleniti magnam officiis dolore quaerat, a eius, sit veniam
-            voluptate amet!
-          </p>
-          <p class="join-brand">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quae
-            eum sunt omnis praesentium quidem in sint rem ipsum. Saepe
-            reiciendis omnis expedita sapiente quis. Omnis voluptatem delectus
-            enim architecto?
-          </p>
-          <a href="./clarity.html" class="shop-now-btn">Go Now</a>
+        <div class="col-12" id="load-more">
+          <section class="wrapper">
+            <div class="content">
+              <header>
+                <h1>Subscribe Us</h1>
+              </header>
+              <section>
+                <p>We will let you know our latest products and collection.</p>
+              </section>
+              <footer>
+                <form id="emailForm">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    pattern="[a-zA-Z0-9.%+-]+@gmail.com$"
+                    required
+                    placeholder="Enter your email"
+                  />
+                  <button type="submit">Let's go</button>
+                </form>
+              </footer>
+            </div>
+          </section>
         </div>
+        <style>
+          body {
+            background-image: url("https://moidien.com/cdn/shop/files/MD_FW23_Webbackground_1400x.jpg?v=1700123347");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+          }
+          .wrapper .content {
+            background: none !important;
+          }
+
+          .navbar-light .navbar-nav .nav-link {
+            color: white !important;
+          }
+          .footer-cart a {
+            color: white !important;
+          }
+
+          .navbar-brand {
+            color: white !important;
+          }
+          .wrapper .content header h1 {
+            color: white !important;
+          }
+
+          p {
+            color: white !important;
+          }
+        </style>
       </div>
     </div>
-
-    <style>
-      body {
-        background-image: url("https://moidien.com/cdn/shop/files/MD_FW23_Webbackground_1400x.jpg?v=1700123347");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-      }
-      .navbar-light .navbar-nav .nav-link {
-        color: white !important;
-      }
-      .footer-cart a {
-        color: white !important;
-      }
-
-      .navbar-brand {
-        color: white !important;
-      }
-      .intro-brand {
-        text-align: center;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 50px;
-      }
-
-      h2 {
-        font-size: 36px;
-        font-weight: 600;
-        font-family: "Montserrat", sans-serif;
-        color: white !important;
-      }
-      .intro-brand p {
-        font-size: 18px;
-        line-height: 1.6;
-        font-weight: 200;
-        margin-bottom: 20px;
-        color: white !important;
-      }
-
-      .shop-now-btn {
-        display: inline-block;
-        padding: 12px 30px;
-        color: white !important;
-        text-decoration: none;
-        font-weight: 600;
-        border-radius: 4px;
-        margin-top: 20px;
-        border: 1px solid black;
-      }
-
-      .shop-now-btn:hover {
-        cursor: pointer;
-        text-decoration: none;
-      }
-    </style>
-
     <footer class="footer-cart">
       <div class="hidden-575">
         <div class="row m-0">
